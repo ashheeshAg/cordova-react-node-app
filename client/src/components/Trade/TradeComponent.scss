@@ -1,0 +1,78 @@
+.trade {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &__item {
+        align-items: center;
+        display: inline-flex;
+        margin-bottom: 50px;
+    }
+    &__image {
+        margin-right: 50px;
+    }
+    &__country {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        &__flag{
+            margin-left: 20px;
+        }
+    }
+    .bp3-input-group {
+        width: 51px;
+    }
+    &__review {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        &__rows {
+            display: inline-flex;
+            margin-bottom: 20px; 
+            &--seller {
+                margin-right: 50px;
+            }
+        }
+    }
+    &__review h3 {
+        margin-bottom: 40px;
+    }
+    &__heading-soul {
+        align-self: center;
+    }
+    &__submit {
+        margin-top: 20px;
+    }
+    &__overlay {
+        background: white;
+        width: 272px;
+        height: 550px;
+        left: 41%;
+        top: 20%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    &__seller-flag {
+        margin-right: 10px;
+    }
+    &__progress {
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        margin-left: 40%;
+        .bp3-progress-bar {
+            margin-left: 15px;
+            width: 15%;
+        }
+    }
+    #tokenizeHeading {
+        margin-bottom: 30px;
+    }
+    &__feedback {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+.bp3-label {
+    font-size: 20px;
+}
