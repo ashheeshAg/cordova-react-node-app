@@ -1,0 +1,39 @@
+{
+  "name": "mockserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production --config webpack.server.config.js",
+    "buildProd": "npm run build",
+    "start": "nodemon --exec babel-node ./src/server/server-dev.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "jwt-decode": "^2.2.0",
+    "lodash": "^4.17.11",
+    "pusher": "^3.0.0",
+    "socket.io": "^2.3.0",
+    "socket.io-client": "^2.3.0",
+    "uws": "10.148.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^8.2.6",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "eslint": "^4.19.1",
+    "eslint-loader": "^2.1.1",
+    "nodemon": "^1.18.9",
+    "uglifyjs-webpack-plugin": "^1.3.0",
+    "webpack": "^4.28.3",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-middleware": "^3.4.0",
+    "webpack-hot-middleware": "^2.24.3"
+  }
+}
