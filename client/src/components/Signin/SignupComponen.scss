@@ -1,0 +1,15 @@
+.signin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &__submit {
+        width: max-content;
+        margin-top: 27px;
+    }
+    .react-sweet-progress-circle-outer {
+        margin-top: 50px;
+    }
+}
+#ready-heading {
+    color: green;
+}
