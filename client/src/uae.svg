@@ -1,0 +1,11 @@
+
+<svg width="53px" height="35px" viewBox="0 0 53 35" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flag_of_the_United_Arab_Emirates" fill-rule="nonzero">
+            <rect id="green" fill="#00732F" x="0" y="0" width="53" height="35"></rect>
+            <rect id="Rectangle" fill="#FFFFFF" x="0" y="12" width="53" height="23"></rect>
+            <rect id="Rectangle" fill="#000000" x="0" y="23" width="53" height="12"></rect>
+            <rect id="red" fill="#FF0000" x="0" y="0" width="13" height="35"></rect>
+        </g>
+    </g>
+</svg>
